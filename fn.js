@@ -40,7 +40,8 @@ console.log(Pepe)
 console.log(Roma.nombrar())
 console.log(Pepe.nombrar())
 
-//Con la clase de Dueños
+
+//Con la subclase Dueños
 
 const agustin = new Dueños(3, "Agustin", "Gomez")
 const brian = new Dueños(4, "Brian", "Gomez")
@@ -49,5 +50,6 @@ console.log(agustin)
 
 console.log(agustin.nombrarDueño())
 console.log(brian.nombrarDueño())
+
 
 
